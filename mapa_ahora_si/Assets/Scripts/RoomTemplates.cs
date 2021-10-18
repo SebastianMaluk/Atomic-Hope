@@ -15,6 +15,7 @@ public class RoomTemplates : MonoBehaviour
     public GameObject closedRoom;
     public GameObject[] guns;
     public GameObject key;
+    public GameObject[] Door;
 
     public List<GameObject> rooms;
     public int roomcount;
@@ -28,6 +29,7 @@ public class RoomTemplates : MonoBehaviour
         Invoke("SpawnEnemies", 3f);
         Invoke("SpawnGuns", 3f);
         Invoke("SpawnKey", 3f);
+        Invoke("SpawnDoor", 3f);
     }
 
     void SpawnEnemies()
@@ -44,6 +46,29 @@ public class RoomTemplates : MonoBehaviour
     {
         Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
         Instantiate(key, rooms[Random.Range(2, 10)].transform.position+pos, Quaternion.identity);
+    }
+    void SpawnDoor()
+    {
+        if (rooms[rooms.Count -1].name == "L(Clone)")
+        {
+            Vector3 posL = new Vector3(-10f, 0f, 0f);
+            Instantiate(Door[0], rooms[rooms.Count - 1].transform.position+posL, Quaternion.identity);
+        }
+        if (rooms[rooms.Count - 1].name == "R(Clone)")
+        {
+            Vector3 posR = new Vector3(10f, 0f, 0f);
+            Instantiate(Door[0], rooms[rooms.Count - 1].transform.position + posR, Quaternion.identity);
+        }
+        if (rooms[rooms.Count - 1].name == "T(Clone)")
+        {
+            Vector3 posT = new Vector3(0f, 10f, 0f);
+            Instantiate(Door[1], rooms[rooms.Count - 1].transform.position + posT, Quaternion.identity);
+        }
+        if (rooms[rooms.Count - 1].name == "B(Clone)")
+        {
+            Vector3 posB = new Vector3(0f, -10f, 0f);
+            Instantiate(Door[1], rooms[rooms.Count - 1].transform.position + posB, Quaternion.identity);
+        }
     }
 
 }

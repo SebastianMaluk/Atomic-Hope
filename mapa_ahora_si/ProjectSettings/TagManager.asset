@@ -9,6 +9,7 @@ TagManager:
   - Hola
   - Enemy
   - Ammo
+  - Door
   layers:
   - Default
   - TransparentFX
