@@ -14,6 +14,11 @@ public class Bullet : MonoBehaviour
             Enemy e = collision.gameObject.GetComponent<Enemy>();
             e.vidas -= damage;
         }
+        if (collision.gameObject.tag == "Boss")
+        {
+            Boss e = collision.gameObject.GetComponent<Boss>();
+            e.vida -= damage;
+        }
         Destroy(this.gameObject);
     }
     private void Start()

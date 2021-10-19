@@ -6,10 +6,10 @@ TagManager:
   tags:
   - SpawnPoint
   - Rooms
-  - Hola
   - Enemy
   - Ammo
   - Door
+  - Boss
   layers:
   - Default
   - TransparentFX
