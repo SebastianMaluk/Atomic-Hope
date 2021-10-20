@@ -35,6 +35,12 @@ public class RoomTemplates : MonoBehaviour
     void SpawnEnemies()
     {
         Instantiate(Boss, rooms[rooms.Count - 1].transform.position, Quaternion.identity);
+        for(int i =0; i<11; i++)
+        {
+            int r = Random.Range(3, 8);
+            Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+            Instantiate(BasicEnemy, rooms[r].transform.position + pos, Quaternion.identity);
+        }
     }
     void SpawnGuns() 
     {

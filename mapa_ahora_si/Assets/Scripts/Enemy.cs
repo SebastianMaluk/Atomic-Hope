@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-
+            
             if (time >= attackrate)
             {
                 Player p = collision.gameObject.GetComponent<Player>();
@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
 
         }
     }
+    
   
 
 

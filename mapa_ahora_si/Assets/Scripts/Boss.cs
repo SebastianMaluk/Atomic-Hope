@@ -17,11 +17,13 @@ public class Boss : MonoBehaviour
     private GameObject canvas;
     private Text text;
    
+   
     void Start()
     {
         player = GameObject.Find("Jugador");
         canvas = GameObject.Find("Canvasenemy");
         text = GameObject.Find("Bossvida").GetComponent<Text>();
+       
         canvas.SetActive(false);
     }
 
@@ -58,6 +60,7 @@ public class Boss : MonoBehaviour
        
         if (vida <= 0)
         {
+           
             Destroy(this.gameObject);
         }
     }

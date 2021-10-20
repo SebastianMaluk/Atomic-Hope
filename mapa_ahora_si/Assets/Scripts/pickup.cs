@@ -5,7 +5,7 @@ using UnityEngine;
 public class pickup : MonoBehaviour
 {
     public GameObject gunprefab;
-    
+    private List<int> numer=new List<int>();
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +28,7 @@ public class pickup : MonoBehaviour
             gun.transform.SetParent(gunholder.transform);
             GameObject j = GameObject.Find("Jugador");
             string gunammo = gun.name;
+            int u = 0;
             foreach (GameObject i in j.GetComponent<Player>().Inventario)
             {
 
@@ -37,10 +38,16 @@ public class pickup : MonoBehaviour
                     {
                         gun.GetComponent<GunSystem>().magazine += i.GetComponent<pickupAmmo>().BulletCount;
                         Destroy(i);
-                        
+                        numer.Add(u);  
                     }
                     
                 }
+                u++;
+            }
+            numer.Reverse();
+            foreach(int i in numer) 
+            {
+                j.GetComponent<Player>().Inventario.RemoveAt(i);
             }
             GameObject.Find("GunHolder").GetComponent<weaponswitch>().AddWeapon(gun);
             Destroy(this.gameObject);

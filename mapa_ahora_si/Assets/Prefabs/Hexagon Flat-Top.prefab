@@ -141,6 +141,7 @@ MonoBehaviour:
   rocksrate: 0.8
   speed: 0.1
   bodydamage: 20
+  GameOverScreen: {fileID: 70361887795334710, guid: c0c0125361a05c84d9a39c0e57d2ddf6, type: 3}
 --- !u!1 &3385468187297799811
 GameObject:
   m_ObjectHideFlags: 0
