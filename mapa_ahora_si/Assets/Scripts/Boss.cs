@@ -16,6 +16,9 @@ public class Boss : MonoBehaviour
     private float time = 0f;
     private GameObject canvas;
     private Text text;
+    public float start_time;
+    public float end_time;
+    public GameOverScreen GameOverScreen;
    
    
     void Start()
@@ -25,6 +28,8 @@ public class Boss : MonoBehaviour
         text = GameObject.Find("Bossvida").GetComponent<Text>();
        
         canvas.SetActive(false);
+        start_time = 0f;
+        
     }
 
     // Update is called once per frame
@@ -54,14 +59,17 @@ public class Boss : MonoBehaviour
             canvas.SetActive(true);
             Rocks();
             time = 0;
-            
 
         }
-       
+        end_time += Time.deltaTime;
         if (vida <= 0)
         {
-           
+            Debug.Log("You Win");
+
+            GameOverScreen.Setup(end_time);
             Destroy(this.gameObject);
+            UnityEditor.EditorApplication.isPlaying = false;
+
         }
     }
  

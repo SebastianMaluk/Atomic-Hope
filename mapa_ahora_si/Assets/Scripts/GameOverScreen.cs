@@ -12,7 +12,6 @@ public class GameOverScreen : MonoBehaviour
         gameObject.SetActive(true);
         timeText.text = System.TimeSpan.FromSeconds((int)Time.timeSinceLevelLoad).ToString();
         Cursor.visible = true;
-        Time.timeScale = 0.01f;
     }
     
     public void RestartButton()
