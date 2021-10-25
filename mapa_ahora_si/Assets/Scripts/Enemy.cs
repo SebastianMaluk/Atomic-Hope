@@ -13,8 +13,8 @@ public class Enemy : MonoBehaviour
     private float time=0f;
     public GameObject[] Drops;
     public float droprate;
-   
-    
+
+    public Animator Animator;
     
 
     // Start is called before the first frame update
@@ -31,7 +31,13 @@ public class Enemy : MonoBehaviour
         if (Dist <= MinDist)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, velocidad);
+            Animator.SetFloat("speed", velocidad);
         }
+        else 
+        {
+            Animator.SetFloat("speed",0);
+        }
+       
         if(vidas<=0)
         {
            
@@ -45,6 +51,7 @@ public class Enemy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+       
         if (collision.gameObject.tag == "Player")
         {
             

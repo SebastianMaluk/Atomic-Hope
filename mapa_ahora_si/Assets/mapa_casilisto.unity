@@ -1248,6 +1248,10 @@ PrefabInstance:
       value: Jugador
       objectReference: {fileID: 0}
     - target: {fileID: 7962146927320785945, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
+      propertyPath: inv
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962146927320785945, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
       propertyPath: texto
       value: 
       objectReference: {fileID: 108435986}

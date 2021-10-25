@@ -42,6 +42,9 @@ public class pickup : MonoBehaviour
                     }
                     
                 }
+                
+                    
+                
                 u++;
             }
             numer.Reverse();

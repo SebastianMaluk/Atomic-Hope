@@ -12,7 +12,9 @@ public class PickupObjects : MonoBehaviour
         {
             
             GameObject.Find("Jugador").GetComponent<Player>().Inventario.Add(this.gameObject);
+          
             this.gameObject.SetActive(false);
+           
         }
 
     }
