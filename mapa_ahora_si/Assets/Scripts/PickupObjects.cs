@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class PickupObjects : MonoBehaviour
 {
-    
-  
+
+    public Sprite Object;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             
             GameObject.Find("Jugador").GetComponent<Player>().Inventario.Add(this.gameObject);
-          
             this.gameObject.SetActive(false);
-           
         }
 
     }

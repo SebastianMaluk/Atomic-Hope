@@ -96,11 +96,11 @@ public class RoomSpawner : MonoBehaviour
     {
         if (collision.CompareTag("SpawnPoint"))
         {
-            // if (collision.GetComponent<RoomSpawner>().spawner == false && spawner == false)
-            // {
-            //     Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
-            //Destroy(gameObject);
-            //  }
+             if (collision.GetComponent<RoomSpawner>().spawner == false && spawner == false)
+             {
+                Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+             }
             spawner = true;
             
         }

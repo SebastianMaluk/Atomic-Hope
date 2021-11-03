@@ -99,6 +99,7 @@ MonoBehaviour:
   magazine: 30
   ratefire: 0.1
   holdbutton: 1
+  WeaponIcon: {fileID: 21300000, guid: d91ad6ec3307cb2429b7bd262ffcaec2, type: 3}
   firepoint: {fileID: 5348335878348553248}
   Ammoprefab: {fileID: 5538794815505807227, guid: 103e32fda5398b14a8c25cf45f87faaa, type: 3}
 --- !u!1 &5348335878348553249

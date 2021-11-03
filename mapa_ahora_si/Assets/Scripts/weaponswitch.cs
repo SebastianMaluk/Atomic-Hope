@@ -9,6 +9,7 @@ public class weaponswitch : MonoBehaviour
     public List<GameObject> guns=new List<GameObject>();
     public GameObject weaponholder;
     public GameObject currentGun;
+    [SerializeField] private WeaponUi weaponUi;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,7 @@ public class weaponswitch : MonoBehaviour
                 currentWeaponIndex += 1;
                 guns[currentWeaponIndex].SetActive(true);
                 currentGun = guns[currentWeaponIndex];
+                weaponUi.UpdateInfo(currentGun.gameObject.GetComponent<GunSystem>().WeaponIcon, currentGun.gameObject.GetComponent<GunSystem>().magazine);
             }
         }
         if (Input.GetKeyDown(KeyCode.Q))
@@ -46,7 +48,12 @@ public class weaponswitch : MonoBehaviour
                 currentWeaponIndex -= 1;
                 guns[currentWeaponIndex].SetActive(true);
                 currentGun = guns[currentWeaponIndex];
+                weaponUi.UpdateInfo(currentGun.gameObject.GetComponent<GunSystem>().WeaponIcon, currentGun.gameObject.GetComponent<GunSystem>().magazine);
             }
+        }
+        if (currentGun != null)
+        {
+            weaponUi.UpdateInfo(currentGun.gameObject.GetComponent<GunSystem>().WeaponIcon, currentGun.gameObject.GetComponent<GunSystem>().magazine);
         }
     }
 
@@ -62,6 +69,6 @@ public class weaponswitch : MonoBehaviour
         currentWeaponIndex = totalWeapons;
         currentGun = guns[currentWeaponIndex];
         totalWeapons++;
-        
+        weaponUi.UpdateInfo(currentGun.gameObject.GetComponent<GunSystem>().WeaponIcon, currentGun.gameObject.GetComponent<GunSystem>().magazine);
     }
 }

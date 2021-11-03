@@ -9,7 +9,7 @@ public class GunSystem : MonoBehaviour
     public float ratefire;
     public bool holdbutton;
     private float time=0f;
-
+    public Sprite WeaponIcon;
     public Transform firepoint;
     public GameObject Ammoprefab;
 

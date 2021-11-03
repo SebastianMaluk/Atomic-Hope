@@ -11,14 +11,12 @@ public class Player : MonoBehaviour
     public GameOverScreen GameOverScreen;
     public float start_time;
     public float end_time;
-    
-    
+    [SerializeField] private InventoryUi keyspirte;
     // Start is called before the first frame update
     void Start()
     {
         start_time = 0f;
         Time.timeScale = 1f;
-       
     }
 
     // Update is called once per frame
@@ -31,6 +29,14 @@ public class Player : MonoBehaviour
             GameOverScreen.Setup(end_time);
             
         }
+        if (Inventario.Count>0) {
+            foreach(GameObject g in Inventario)
+            {
+                if (g.name == "Key(Clone)") 
+                {
+                    keyspirte.UpdateInfo(g.GetComponent<PickupObjects>().Object);
+                }
+            }
+        }
     }
-  
 }

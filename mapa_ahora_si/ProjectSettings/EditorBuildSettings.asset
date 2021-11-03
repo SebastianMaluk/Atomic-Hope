@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/mapa_casilisto.unity
+    path: Assets/Scenes/Persistent Scene.unity
+    guid: 7cde098fbd65d8043ab969d4bae865b9
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 1f1020a207f2fb641b5fbb4f850a17df
+  - enabled: 1
+    path: Assets/Scenes/mapa_casilisto.unity
     guid: c3f817f3081204746b777ae505e7ac46
   m_configObjects: {}
