@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -65,10 +66,12 @@ public class Boss : MonoBehaviour
         if (vida <= 0)
         {
             Debug.Log("You Win");
-
-            GameOverScreen.Setup(end_time);
-            Destroy(this.gameObject);
-            UnityEditor.EditorApplication.isPlaying = false;
+            PlayerPrefs.SetFloat("TimePrefsName", end_time);
+            Debug.Log(end_time);
+            GameOverScreen.Setup();
+            SceneManager.LoadScene(3);
+            //Destroy(this.gameObject);
+            //UnityEditor.EditorApplication.isPlaying = false;
 
         }
     }

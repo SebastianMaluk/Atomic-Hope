@@ -7,18 +7,18 @@ using UnityEngine.SceneManagement;
 public class GameOverScreen : MonoBehaviour
 {
     public Text timeText;
-    public void Setup(float end_time)
+    public void Setup()
     {
         gameObject.SetActive(true);
-        timeText.text = System.TimeSpan.FromSeconds((int)Time.timeSinceLevelLoad).ToString();
+        timeText.text = System.TimeSpan.FromSeconds((int)PlayerPrefs.GetFloat("TimePrefsName")).ToString();
         Cursor.visible = true;
     }
     
+
     public void RestartButton()
     {
         Debug.Log("Restart");
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(2);
     }
 
     public void ExitButton()

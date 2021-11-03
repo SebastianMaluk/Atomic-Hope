@@ -25,16 +25,21 @@ public class Player : MonoBehaviour
         texto.text = vida.ToString();
         end_time += Time.deltaTime;
         if (vida <= 0) 
-        {   
-            GameOverScreen.Setup(end_time);
-            
+        {
+            PlayerPrefs.SetFloat("TimePrefsName", end_time);
+            GameOverScreen.Setup();
+            Debug.Log(end_time);
+            Time.timeScale = 0;
         }
         if (Inventario.Count>0) {
             foreach(GameObject g in Inventario)
             {
-                if (g.name == "Key(Clone)") 
+                if (g != null)
                 {
-                    keyspirte.UpdateInfo(g.GetComponent<PickupObjects>().Object);
+                    if (g.name == "Key(Clone)")
+                    {
+                        keyspirte.UpdateInfo(g.GetComponent<PickupObjects>().Object);
+                    }
                 }
             }
         }

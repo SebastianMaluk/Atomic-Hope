@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mapa_casilisto.unity
     guid: c3f817f3081204746b777ae505e7ac46
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 08287b3e9a7154c40aa12bb55998f1c5
   m_configObjects: {}
