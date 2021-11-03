@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidas: 40
-  velocidad: 0.03
+  velocidad: 0.05
   player: {fileID: 0}
   MinDist: 10
   Damage: 10
@@ -624,7 +624,6 @@ MonoBehaviour:
   - {fileID: 507379579458152580, guid: bead31974df96cf478661ff03088e207, type: 3}
   - {fileID: 4904536260349523641, guid: 199aa64cd2131c841b5a1fff19df3374, type: 3}
   droprate: 0.9
-  Animator: {fileID: 5284768659684654956}
 --- !u!1 &5976287082492568592
 GameObject:
   m_ObjectHideFlags: 0

@@ -812,6 +812,7 @@ MonoBehaviour:
   roomMax: 10
   Boss: {fileID: 3385468187230359985, guid: 6e86124cbcdad564da5a9e2c78fc3b66, type: 3}
   BasicEnemy: {fileID: 5642915267516351131, guid: 4141ce855f3dd94478832b09f6925f42, type: 3}
+  BasicEnemy2: {fileID: 8555993859869833083, guid: 5bee3e7ea64ea0348bf28a8117246ea4, type: 3}
 --- !u!4 &788955974
 Transform:
   m_ObjectHideFlags: 0

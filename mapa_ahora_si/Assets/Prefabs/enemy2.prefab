@@ -135,8 +135,10 @@ MonoBehaviour:
   MinDist: 10
   Damage: 10
   attackrate: 0.5
-  Drops: []
-  droprate: 0
+  Drops:
+  - {fileID: 4904536260349523641, guid: 199aa64cd2131c841b5a1fff19df3374, type: 3}
+  - {fileID: 507379579458152580, guid: bead31974df96cf478661ff03088e207, type: 3}
+  droprate: 0.8
 --- !u!114 &7106613433645735390
 MonoBehaviour:
   m_ObjectHideFlags: 0

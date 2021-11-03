@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36aa649765b1216428ffd2206b677ba3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Range: 5
+  Range: 7
   rockforce: 3
   damage: 7
 --- !u!50 &1645199012733611858

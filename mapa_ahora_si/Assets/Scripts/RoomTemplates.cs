@@ -23,6 +23,7 @@ public class RoomTemplates : MonoBehaviour
 
     public GameObject Boss;
     public GameObject BasicEnemy;
+    public GameObject BasicEnemy2;
 
     private void Start()
     {
@@ -40,6 +41,8 @@ public class RoomTemplates : MonoBehaviour
             int r = Random.Range(3, 8);
             Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
             Instantiate(BasicEnemy, rooms[r].transform.position + pos, Quaternion.identity);
+            Vector3 pos2 = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+            Instantiate(BasicEnemy2, rooms[r].transform.position + pos, Quaternion.identity);
         }
     }
     void SpawnGuns() 
