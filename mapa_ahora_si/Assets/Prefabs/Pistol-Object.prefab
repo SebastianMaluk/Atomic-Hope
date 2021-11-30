@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2334359733756891305}
   - component: {fileID: 2334359733756891306}
-  - component: {fileID: 2334359733756891307}
   - component: {fileID: 2334359733756891300}
+  - component: {fileID: 2334359733756891307}
   m_Layer: 0
   m_Name: Pistol-Object
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0, g: 1, b: 0.13177848, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,19 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2334359733756891307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2334359733756891301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47fcfbb797806e442a9144b59294f1c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gunprefab: {fileID: 2729834683026510539, guid: 7abc4204ae883914a931913c2b2f8838, type: 3}
 --- !u!58 &2334359733756891300
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -113,3 +100,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2334359733756891307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2334359733756891301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fcfbb797806e442a9144b59294f1c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunprefab: {fileID: 2729834683026510539, guid: 7abc4204ae883914a931913c2b2f8838, type: 3}

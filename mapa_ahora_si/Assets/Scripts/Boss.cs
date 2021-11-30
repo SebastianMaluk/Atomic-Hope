@@ -79,7 +79,5 @@ public class Boss : MonoBehaviour
     void Rocks()
     {
         GameObject rock = Instantiate(rocks, firepoint.transform.position,firepoint.transform.rotation);
-        
-        
     }
 }

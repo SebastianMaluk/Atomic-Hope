@@ -15,11 +15,11 @@ C:/Users/semal/Documents/GitHub/Atomic-Hope/mapa_ahora_si
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63231
+61515
 Successfully changed project path to: C:/Users/semal/Documents/GitHub/Atomic-Hope/mapa_ahora_si
 C:/Users/semal/Documents/GitHub/Atomic-Hope/mapa_ahora_si
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,127 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001448 seconds.
+Registered in 0.001467 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
+- Completed reload, in  1.031 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1254ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004793 seconds.
+Registered in 0.003824 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FFFDA61070 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000021EE1EAE060 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFD86C560 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002207EFB8820 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE0139E060 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002207E3B3FC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDB20040 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000002207E30D3A0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDB20040 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000021EE1E8E020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE01611010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000021EE1DC0010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE01074230 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002207ED9BA30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDB20040 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002207E655FC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE00A82020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002207E655FC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE00AB0230 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000021EE1A83030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE01074230 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002207ED9BA30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE00A69C40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002207E469020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDF41550 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002207E469020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDD066F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002207E9AA630 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFDB1B950 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002207ECF2A30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE0095A630 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002207E9AA630 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFD9B6950 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002207ED0A030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FE00671010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000021EE137A010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FFFD52F550 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002207DF9D510 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.380 seconds
+- Completed reload, in  1.210 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1381ms)
-		BeginReloadAssembly (192ms)
+	ReloadAssembly (1211ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1053ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (366ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
 System memory in use after: 100.3 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 3.563200 ms (FindLiveObjects: 0.312600 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.039500 ms  DeleteObjects: 0.129100 ms)
+Total: 3.527500 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.071700 ms MarkObjects: 3.154900 ms  DeleteObjects: 0.098100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -170,561 +170,1102 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Images/New Palette.prefab
-  artifactKey: Guid(23470dec548951b439477810d2619bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/New Palette.prefab using Guid(23470dec548951b439477810d2619bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a38a7eb4f939dc30b1548f0a6dff55') in 0.200235 seconds 
-  Import took 0.208641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001003 seconds.
-  path: Assets/Images/tierraclara.jpg
-  artifactKey: Guid(11afde9b00aa7284fb2acf1a9e0ffb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/tierraclara.jpg using Guid(11afde9b00aa7284fb2acf1a9e0ffb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981e6d4e36aa64a6a5b10018d0f80e30') in 0.085346 seconds 
-  Import took 0.094869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/Images/tierraclara.asset
-  artifactKey: Guid(81d3000834c6d8c40933180f55656dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/tierraclara.asset using Guid(81d3000834c6d8c40933180f55656dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9183e9c824de21168fa089cf68b64ad8') in 0.055889 seconds 
-  Import took 0.064667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.767297 seconds.
-  path: Assets/Images/raygun.png
-  artifactKey: Guid(37afdd0ab811d6044a0ed90304ce3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/raygun.png using Guid(37afdd0ab811d6044a0ed90304ce3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c038c5d1725588d30596f624420104') in 0.061202 seconds 
-  Import took 0.066960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.654732 seconds.
-  path: Assets/Prefabs/bullet.prefab
-  artifactKey: Guid(a93c15252b73b65408ee3b059ffaa2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bullet.prefab using Guid(a93c15252b73b65408ee3b059ffaa2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e05537fcd3248143622cb977d978463') in 0.021582 seconds 
-  Import took 0.025996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Prefabs/enemy2.prefab
-  artifactKey: Guid(5bee3e7ea64ea0348bf28a8117246ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy2.prefab using Guid(5bee3e7ea64ea0348bf28a8117246ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8083ff83902efad028928f4e93b6d') in 0.054348 seconds 
-  Import took 0.061640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Prefabs/Enemigo.prefab
-  artifactKey: Guid(4141ce855f3dd94478832b09f6925f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemigo.prefab using Guid(4141ce855f3dd94478832b09f6925f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7ee3dc25836ed47a0d8d086baa13fd') in 0.054041 seconds 
-  Import took 0.061444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.213343 seconds.
-  path: Assets/Prefab/All.prefab
-  artifactKey: Guid(43cf4a0cd5adbca428cefb6b1211988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/All.prefab using Guid(43cf4a0cd5adbca428cefb6b1211988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c66dcc7cac6b4f5dc74ba94770f9588') in 0.031264 seconds 
-  Import took 0.040282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Prefab/TB.prefab
-  artifactKey: Guid(d1de685730e23ca43b997458caaadf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TB.prefab using Guid(d1de685730e23ca43b997458caaadf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c235f50f4dc85f414b1ba373b930fba') in 0.049268 seconds 
-  Import took 0.059301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Prefab/TR.prefab
-  artifactKey: Guid(2cd5083c2b1174747b09bea5c019ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TR.prefab using Guid(2cd5083c2b1174747b09bea5c019ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e9d91c93004c339faceccc3d2e5de8') in 0.049353 seconds 
-  Import took 0.059185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Prefab/BLR.prefab
-  artifactKey: Guid(b7c000215f0be714ba43909ddb8a5f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/BLR.prefab using Guid(b7c000215f0be714ba43909ddb8a5f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafd8bed0e86148f6c491ae6ac956466') in 0.057428 seconds 
-  Import took 0.073463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Prefab/T.prefab
-  artifactKey: Guid(f1021f3045817a7458b84a56e46664ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/T.prefab using Guid(f1021f3045817a7458b84a56e46664ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01a46410473954cefae0f6f9571db42') in 0.036948 seconds 
-  Import took 0.045679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Prefab/B.prefab
-  artifactKey: Guid(3c5f9d6f5dcf1b747924ff6585174113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/B.prefab using Guid(3c5f9d6f5dcf1b747924ff6585174113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0f7647da4724e3a8578439b461024') in 0.044144 seconds 
-  Import took 0.052998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000665 seconds.
-  path: Assets/Prefab/R.prefab
-  artifactKey: Guid(c14ec3017f1b4fd468be39c016d2a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/R.prefab using Guid(c14ec3017f1b4fd468be39c016d2a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d75085c6a82107c2eca0274fd7e9d30') in 0.059270 seconds 
-  Import took 0.067440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Prefab/LR.prefab
-  artifactKey: Guid(b8c8bccfcc91ece49bfd7a88bc8c5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LR.prefab using Guid(b8c8bccfcc91ece49bfd7a88bc8c5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e05d60e2d7092456bea29e43bb27e04') in 0.046154 seconds 
-  Import took 0.059582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Prefab/BR.prefab
-  artifactKey: Guid(cc8849f6d4768b8439135a54301a6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/BR.prefab using Guid(cc8849f6d4768b8439135a54301a6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a125353919156e1642df2fd4240b361') in 0.039979 seconds 
-  Import took 0.055966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Prefab/TRB.prefab
-  artifactKey: Guid(2ba4d8fc3762d46459d14866823b20f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TRB.prefab using Guid(2ba4d8fc3762d46459d14866823b20f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3a336e92afb374ca364bafb3b9696c') in 0.040231 seconds 
-  Import took 0.051622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000933 seconds.
-  path: Assets/Prefab/L.prefab
-  artifactKey: Guid(88a20076888bb8845babf5d742f5e641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/L.prefab using Guid(88a20076888bb8845babf5d742f5e641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a424ace04f6a79e9d1b5793fa95ac26d') in 0.048210 seconds 
-  Import took 0.058368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Prefab/BL.prefab
-  artifactKey: Guid(6ca5f45a58d0a9e4aae3279a4e727004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/BL.prefab using Guid(6ca5f45a58d0a9e4aae3279a4e727004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaa3a06463a8464c8abb50c77fa68bd') in 0.053332 seconds 
-  Import took 0.067156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000661 seconds.
-  path: Assets/Prefab/TL.prefab
-  artifactKey: Guid(1cc78c3e272bd8446ba15d95e164d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TL.prefab using Guid(1cc78c3e272bd8446ba15d95e164d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80aa3851624a59e2fd4f20a60d06319') in 0.041145 seconds 
-  Import took 0.052448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Prefab/TLB.prefab
-  artifactKey: Guid(f4fb1cf2a98e06c49b2feb5864a72034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TLB.prefab using Guid(f4fb1cf2a98e06c49b2feb5864a72034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4b27b05bf8f13aae081364b4bc88ff') in 0.043613 seconds 
-  Import took 0.052233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Prefab/Suelo.prefab
-  artifactKey: Guid(d9de155b79aa9504382fa8377fdc362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Suelo.prefab using Guid(d9de155b79aa9504382fa8377fdc362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61c7d9ea2cf6a56900bbe8ea60d88cf') in 0.037892 seconds 
-  Import took 0.045585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.455773 seconds.
-  path: Assets/Images/raygun 1.png
-  artifactKey: Guid(a6ce9a7e10349a4468f0e40c451bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/raygun 1.png using Guid(a6ce9a7e10349a4468f0e40c451bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c079d1c87a164e66b78fa6e807d8b24') in 0.035721 seconds 
-  Import took 0.040158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.406755 seconds.
-  path: Assets/Images/Square.png
-  artifactKey: Guid(e1261c91db022e24e9e7956f16c901c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Square.png using Guid(e1261c91db022e24e9e7956f16c901c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f50f2e895f4351d35144fbceb64156') in 0.050750 seconds 
-  Import took 0.056338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 716.834455 seconds.
-  path: Assets/raygun.png
-  artifactKey: Guid(5b7ee0f929074cf4b89ad12012fb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raygun.png using Guid(5b7ee0f929074cf4b89ad12012fb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135a8e8b7dab5a74e68558d1330d0287') in 0.027940 seconds 
-  Import took 0.036654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.578187 seconds.
-  path: Assets/Images/raygun.png
-  artifactKey: Guid(5b7ee0f929074cf4b89ad12012fb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/raygun.png using Guid(5b7ee0f929074cf4b89ad12012fb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4381d01f222b81a2ad66418add1611') in 0.059609 seconds 
-  Import took 0.064140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.775770 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5134cd46d739d4c45fa073d3e0027c') in 0.045832 seconds 
-  Import took 0.050760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.452253 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac38ed9504225350c9ebfad21d11cac') in 0.077055 seconds 
-  Import took 0.083026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.879677 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bef5a98c1664ba839b835d5e1c43e0') in 0.052322 seconds 
-  Import took 0.056923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 207.277056 seconds.
-  path: Assets/Prefabs/B-Ammo Variant.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/B-Ammo Variant.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e830235b9f53f2ea73f38231056aca7') in 0.030311 seconds 
-  Import took 0.034750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.526039 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0746ab553e9f94e09d64f3049fe71c') in 0.020691 seconds 
-  Import took 0.027824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.495029 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a22483b4697749544ae99982818eeb3') in 0.022380 seconds 
-  Import took 0.027210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.005502 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489c5ead9c124adca1d60b030a0db3f0') in 0.022398 seconds 
-  Import took 0.027353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.216061 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1895dc0f445dd7bfa99deec23dcbdfc') in 0.024389 seconds 
-  Import took 0.030458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.592396 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b85a390e83c7d0d58a2e1948455d934') in 0.022751 seconds 
-  Import took 0.028433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.665694 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8eefad4af000757d575acb1a45f8e2c') in 0.020837 seconds 
-  Import took 0.026296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.571950 seconds.
-  path: Assets/Prefabs/Pistol-Object Variant.prefab
-  artifactKey: Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol-Object Variant.prefab using Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7878dae856ff188818e68929a7b4f4') in 0.025830 seconds 
-  Import took 0.029813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.452082 seconds.
-  path: Assets/Prefabs/RayGun-Object.prefab
-  artifactKey: Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RayGun-Object.prefab using Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6e9a63697ede16f07f8d39952db683') in 0.025794 seconds 
-  Import took 0.032103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.513552 seconds.
-  path: Assets/Prefabs/RayGun-Object.prefab
-  artifactKey: Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RayGun-Object.prefab using Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b33444baebe3b99c61ccd813bae9b5c') in 0.050142 seconds 
-  Import took 0.054931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.144161 seconds.
-  path: Assets/Prefabs/RayGun-Object.prefab
-  artifactKey: Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RayGun-Object.prefab using Guid(2c153dd4ed331b646859aca06502a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6f39fa6cf8b39ba277ac97e5fda2e1') in 0.027017 seconds 
-  Import took 0.033282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.158363 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a1504b7c91cae87a1eda6325563289') in 0.028791 seconds 
-  Import took 0.036232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.289745 seconds.
-  path: Assets/Prefabs/C-Ammo.prefab
-  artifactKey: Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/C-Ammo.prefab using Guid(8bd72c00f7e79a64c994451730bd495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733509ff19bec59c4033ad39f5be6122') in 0.013412 seconds 
-  Import took 0.019091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1222.757562 seconds.
-  path: Assets/audio/raygun_shot.aac
-  artifactKey: Guid(8123c67cf2e64b14695de9e1324644f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audio/raygun_shot.aac using Guid(8123c67cf2e64b14695de9e1324644f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f3c84da8a6a33e9c1b293885b78c7e') in 0.031518 seconds 
-  Import took 0.040730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.676505 seconds.
-  path: Assets/audio/raygun_shot.mp3
-  artifactKey: Guid(e6742ed7a903eae439810eb59a80e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/audio/raygun_shot.mp3 using Guid(e6742ed7a903eae439810eb59a80e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6165568dc10fe94bac44c6f58450ae3e') in 0.044520 seconds 
-  Import took 0.051063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.795199 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89168896d9d901f743307adf2907b0') in 0.096047 seconds 
-  Import took 0.104644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.751543 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4eec81a0e111fac8c23998caa94773') in 0.034660 seconds 
-  Import took 0.042487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.989795 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a7867f7497d8acf746078157acf46f') in 0.035135 seconds 
-  Import took 0.042097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.609811 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ebb0c0c7ff23d3d6969d8d02ceacd') in 0.059067 seconds 
-  Import took 0.064678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.556135 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7836abde8502a8cbc5f927714215091e') in 0.032363 seconds 
-  Import took 0.039743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.774672 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5655c69f0629a6d767a3feab6df5f81d') in 0.038091 seconds 
-  Import took 0.045897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.176146 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90638d6c486737217ba7d995417787bf') in 0.068001 seconds 
-  Import took 0.073210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.026055 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5a4ccf1480e2db39fc3bcf4a680795') in 0.080059 seconds 
-  Import took 0.084512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.919829 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340d801c39eb95ab269e2b676762a05c') in 0.036217 seconds 
-  Import took 0.043391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.345767 seconds.
-  path: Assets/Prefabs/pistola.prefab
-  artifactKey: Guid(7abc4204ae883914a931913c2b2f8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/pistola.prefab using Guid(7abc4204ae883914a931913c2b2f8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06411cae75a2dbc21ac687675c7f2df') in 0.053643 seconds 
-  Import took 0.058785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.113017 seconds.
-  path: Assets/Prefabs/pistola.prefab
-  artifactKey: Guid(7abc4204ae883914a931913c2b2f8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/pistola.prefab using Guid(7abc4204ae883914a931913c2b2f8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e546347c68ca2c0ad7848f030221e553') in 0.042835 seconds 
-  Import took 0.048824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.705520 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083a1dd5788130108b3e83cfcf13bbc5') in 0.074827 seconds 
-  Import took 0.078956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.804192 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f1b2585836fcd6ab9f90963167edd5') in 0.071617 seconds 
-  Import took 0.077331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.352468 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd902b700df4f7c3fcfaf302d060b8877') in 0.026548 seconds 
-  Import took 0.033774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.130508 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b51720c2d923d892da699e2a505cb5') in 0.063234 seconds 
-  Import took 0.067366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.972882 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26bdacdf6e1f176e953c08a145feacf') in 0.035169 seconds 
-  Import took 0.042008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.393921 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bda7636f20f991bb322f5b2990fa3e') in 0.068335 seconds 
-  Import took 0.072916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.145882 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b5514f8ea7c060688d0310be3f38b0') in 0.068554 seconds 
-  Import took 0.074050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.787012 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9093489fc394ac4892c1c26ee97901') in 0.061212 seconds 
-  Import took 0.066010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.978555 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a09fb7bdc1230ddf6b85cfe9cfa53') in 0.055145 seconds 
-  Import took 0.059365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 413.307362 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7d92bee84fa2f3ee4d5bf2cc6f3433') in 0.067705 seconds 
-  Import took 0.083380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.081675 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f2f32c9fc637ead661365bed7606a3') in 0.056853 seconds 
-  Import took 0.065909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.489100 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0acfccb8b656250bd53477dda58795') in 0.060358 seconds 
-  Import took 0.069538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.701913 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f56f2d490fbd1420b653485136380df') in 0.055868 seconds 
-  Import took 0.064696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.693914 seconds.
-  path: Assets/Prefabs/ray gun.prefab
-  artifactKey: Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ray gun.prefab using Guid(ea01587039641264fa516b2742be02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec4ce5c5720413e864fcfe6435e6ae3') in 0.050424 seconds 
-  Import took 0.061236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 655.489811 seconds.
   path: Assets/Scenes/mapa_casilisto.unity
   artifactKey: Guid(c3f817f3081204746b777ae505e7ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa_casilisto.unity using Guid(c3f817f3081204746b777ae505e7ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37d2594b5c144679d562150bb574411') in 0.016046 seconds 
-  Import took 0.025959 seconds .
+Start importing Assets/Scenes/mapa_casilisto.unity using Guid(c3f817f3081204746b777ae505e7ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f828bead29abd8dea4fb4b094548c8') in 0.018350 seconds 
+  Import took 0.021350 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB250 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1E96030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E3B3FC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE530C010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE14BE020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E465010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207ECCC010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E2EF010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE530C010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E487830 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE575C020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5D79C40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1E96030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5D79C40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EBE44A0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1832020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF97A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 3.583500 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.076100 ms MarkObjects: 3.160200 ms  DeleteObjects: 0.125800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004492 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEC110 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E4DAC40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AD3030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6FCEC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6627E20 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E325200 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207ECCC010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AC9030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5EDA000 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EF63040 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE535A010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2EBD070 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE535A010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE660CC30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6156E90 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9C690 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 3.538700 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.077300 ms MarkObjects: 3.155800 ms  DeleteObjects: 0.105800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 324.742371 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c3af9dac80842d7a4913609a72aad7') in 0.045263 seconds 
+  Import took 0.048437 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002480 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEBD60 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E4DAC40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5E35020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2EB3240 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D69030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5ED9E30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5F06DC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2EC1080 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4959A00 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2C99410 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF97A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 3.388500 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.067800 ms MarkObjects: 3.002000 ms  DeleteObjects: 0.115000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.859896 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49cbd4d56480fa63e888b8c30c9928d') in 0.006915 seconds 
+  Import took 0.010375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013678 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB600 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E4DAC40 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6790020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1AA7020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5B43020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D69030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5F87B80 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1AA7020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5ED9E30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE186C030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D10A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4A20EE0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF97A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1844ms)
+		BeginReloadAssembly (338ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (563ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 4.801600 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.122900 ms MarkObjects: 4.347900 ms  DeleteObjects: 0.095600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 307.611535 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176ac0ffdc6e0e00281f7bdce786b5c2') in 0.008625 seconds 
+  Import took 0.014526 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB600 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E46D020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E323F20 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EB00530 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EE3D030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D29010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5ED9E30 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE20FA010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D10A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6E44460 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9C860 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1021ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 3.638100 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.072100 ms MarkObjects: 3.245700 ms  DeleteObjects: 0.106900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 332.370837 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(3262b7c3321fc7e49beca4f7b573d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4eef634d953f5b68aaf0f28b4e52e7') in 0.005300 seconds 
+  Import took 0.008419 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003980 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB600 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E46D020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6CF5030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1559020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5ED0430 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EE3D030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2ED7010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1559020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AC9030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE186C030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E46D020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D10A70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4C17510 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9D510 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 3.761800 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.182000 ms MarkObjects: 3.073300 ms  DeleteObjects: 0.086600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90.651119 seconds.
+  path: Assets/Scripts/SceneLoader.cs
+  artifactKey: Guid(ba84e45ed095ee04bbd36c92a4bf9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoader.cs using Guid(ba84e45ed095ee04bbd36c92a4bf9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066d86eb79bafc9d14e9163427192872') in 0.020563 seconds 
+  Import took 0.028038 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB250 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E46D020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5B64130 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1444020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EB07530 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7540020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2ED7010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1444020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AC9030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE20FA010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D137C0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE24FA4A0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF99CE0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2194ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1990ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1115ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (653ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 3.389400 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.996100 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003346 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB250 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E46D020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220565D43C0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7156020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7540020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1886020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7156020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4F0D030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E31D3F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D137C0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE24FA4A0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF99030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2588.
+Total: 3.451100 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.064300 ms MarkObjects: 3.114400 ms  DeleteObjects: 0.082900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147.391058 seconds.
+  path: Assets/Scripts/SceneLoader.cs
+  artifactKey: Guid(ba84e45ed095ee04bbd36c92a4bf9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoader.cs using Guid(ba84e45ed095ee04bbd36c92a4bf9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533517cf3bbe16d51204e5e6e2feca70') in 0.006637 seconds 
+  Import took 0.009774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003649 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEB250 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE53B1DC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5B64130 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1444020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4F05020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2ED7010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1444020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AC9030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E31D3F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE646E030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1EAC6D0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE59F9870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D094A0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4BA1020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9C690 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 3.869000 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.092000 ms MarkObjects: 3.481800 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEC870 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE188FE50 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE48310D0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6546010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E7D010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4F05020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE1444020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE6546010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207EAE1020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E31D3F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E5DE030 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D11380 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4BA1020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9CDD0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1457ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 3.916300 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.101200 ms MarkObjects: 3.521800 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003271 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021EE5CEBD60 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE53B1DC0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2AAE0B0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7156020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E5EE050 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2640E70 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2ED7010 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7156020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE22B3020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207E6C8160 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE5FAAA60 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE7A48020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2A47020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2E0F020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE61547F0 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE65FE040 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE2D11380 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021EE4BA1020 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207DF9C690 doesn't match image C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1025ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2594.
+Total: 3.601500 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.074200 ms MarkObjects: 3.249300 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
