@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 872f35e475966ab419ea9ec2ec48e5b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocks: {fileID: 0}
+  rocks: {fileID: 2371936714210704979, guid: b566c6144cca01b4bbcb0e936f051326, type: 3}
   firepoint: {fileID: 9198952222995559866}
   vida: 300
   rocksrate: 1
