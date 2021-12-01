@@ -56,7 +56,7 @@ public class RoomTemplates : MonoBehaviour
     }
     void SpawnGuns() 
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().name == "Level 1")
         {
             Vector3 pos0 = new Vector3(0f, -7f, 0f);
             Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
@@ -65,7 +65,7 @@ public class RoomTemplates : MonoBehaviour
             
 
         }
-        else if(SceneManager.GetActiveScene().buildIndex == 4)
+        else if(SceneManager.GetActiveScene().name == "Level 2")
         {
             Vector3 pos2 = new Vector3(2f, 5f, 0f);
             Vector3 pos3 = new Vector3(0f, 5f, 0f);
