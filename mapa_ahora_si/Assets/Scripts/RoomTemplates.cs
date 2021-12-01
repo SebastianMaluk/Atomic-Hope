@@ -16,6 +16,7 @@ public class RoomTemplates : MonoBehaviour
     public GameObject closedRoom;
     public GameObject[] guns;
     public GameObject key;
+    public GameObject Chest;
     public GameObject[] Door;
     public GameObject[] Floor;
 
@@ -38,6 +39,7 @@ public class RoomTemplates : MonoBehaviour
         Invoke("SpawnGuns", 3f);
         Invoke("SpawnKey", 3f);
         Invoke("SpawnDoor", 3f);
+        Invoke("SpawnChest", 3f);
     }
 
     
@@ -54,9 +56,20 @@ public class RoomTemplates : MonoBehaviour
             Instantiate(BasicEnemy2, rooms[r].transform.position + pos, Quaternion.identity);
         }
     }
+    void SpawnChest() 
+    {
+        Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+        Vector3 pos1 = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+        Vector3 pos2= new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+        Vector3 pos3 = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+        Instantiate(Chest, rooms[Random.Range(2, 10)].transform.position + pos, Quaternion.identity);
+        Instantiate(Chest, rooms[Random.Range(2, 10)].transform.position + pos1, Quaternion.identity);
+        Instantiate(Chest, rooms[Random.Range(2, 10)].transform.position + pos2, Quaternion.identity);
+        Instantiate(Chest, rooms[Random.Range(2, 10)].transform.position + pos3, Quaternion.identity);
+    }
     void SpawnGuns() 
     {
-        if (SceneManager.GetActiveScene().name == "Level 1")
+        if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             Vector3 pos0 = new Vector3(0f, -7f, 0f);
             Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
@@ -65,7 +78,7 @@ public class RoomTemplates : MonoBehaviour
             
 
         }
-        else if(SceneManager.GetActiveScene().name == "Level 2")
+        else if(SceneManager.GetActiveScene().buildIndex == 4)
         {
             Vector3 pos2 = new Vector3(2f, 5f, 0f);
             Vector3 pos3 = new Vector3(0f, 5f, 0f);

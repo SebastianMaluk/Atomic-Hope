@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 3702
+  controlID: 1605
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 3619
+  controlID: 1610
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -405,9 +405,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.542221, y: 1.7328073, z: -52.8756}
+    m_Target: {x: 4.318798, y: 12.668445, z: -78.39222}
     speed: 2
-    m_Value: {x: -5.542221, y: 1.7328073, z: -52.8756}
+    m_Value: {x: 5.4583607, y: 12.7595, z: -78.271645}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -458,9 +458,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.969052
+    m_Target: 28.00097
     speed: 2
-    m_Value: 2.969052
+    m_Value: 26.795187
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -515,7 +515,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4212feff6612feffa412feff9614feffd614fefff015feff3016feff4a17feff8a17feffb618feffba18feffc418feff7e19feff2e1afeff521afeff641bfeff5a1dfeff9a1dfeffb41efefff41efeff0e20feff4e20feff5220feff5620feff6220feffac99feffaca8feffb6e2ffffbc1c0100ce1c0100
+      m_ExpandedIDs: 2440ffff4840ffff5e41ffff6241ffffa241ffffbc42fffffc42ffff1644ffff5644ffff7445ffff7e45ffff8a45ffff125affff508bffff6ca9ffffd6aaffffe8aafffff8abffff1cb0ffffdcd9ffff18dbffff58dcffffe2deffff1ae0ffff04e2ffffc8e2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -585,14 +585,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\semal\Documents\GitHub\Atomic-Hope\mapa_ahora_si
+  m_LastProjectPath: C:\Users\borja\OneDrive\Documentos\GitHub\Atomic-Hope\mapa_ahora_si
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 145b0000
-    m_LastClickedID: 23316
-    m_ExpandedIDs: 00000000fa5a0000fc5a0000fe5a0000005b0000025b000000ca9a3b
+    m_SelectedIDs: 68580000
+    m_LastClickedID: 22632
+    m_ExpandedIDs: 000000004c5800004e58000050580000525800005458000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa5a0000fc5a0000fe5a0000005b0000025b000000ca9a3b
+    m_ExpandedIDs: 000000004c5800004e58000050580000525800005458000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,8 +647,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 34470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

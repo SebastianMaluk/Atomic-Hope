@@ -388,6 +388,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2732}
     - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
       Script: {instanceID: 2766}
     - Class: 114
       Script: {instanceID: 2884}
@@ -421,6 +423,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4574}
     - Class: 114
       Script: {instanceID: 4674}
+    - Class: 114
+      Script: {instanceID: 4954}
     - Class: 114
       Script: {instanceID: 5164}
     - Class: 114
@@ -521,6 +525,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2732}
     - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
       Script: {instanceID: 2766}
     - Class: 114
       Script: {instanceID: 2884}
@@ -554,6 +560,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4574}
     - Class: 114
       Script: {instanceID: 4674}
+    - Class: 114
+      Script: {instanceID: 4954}
     - Class: 114
       Script: {instanceID: 5164}
     - Class: 114
@@ -795,7 +803,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -808,7 +822,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 1900}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
@@ -821,6 +835,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3352}
     - Class: 114
       Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 4026}
+    - Class: 114
+      Script: {instanceID: 4156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -874,6 +892,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3468}
     - Class: 114
       Script: {instanceID: 3766}
+    - Class: 114
+      Script: {instanceID: 4156}
     - Class: 114
       Script: {instanceID: 4552}
     - Class: 115
@@ -1057,7 +1077,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 683a88ed76d3881cea1222793df76a87
+      Hash: c54fdc6331f59036745de4ce43656166
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RoomTemplates
@@ -1625,4 +1645,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Next Level_3.unity
   - Assets/Scenes/Final Boss.unity
   - Assets/Scenes/Win.unity
-  playerPath: M:/mapa_ahora_si.exe
+  playerPath: C:/Users/borja/OneDrive/Escritorio/mapa_ahora_si.exe
