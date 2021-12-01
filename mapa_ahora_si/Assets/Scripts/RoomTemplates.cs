@@ -16,6 +16,7 @@ public class RoomTemplates : MonoBehaviour
     public GameObject[] guns;
     public GameObject key;
     public GameObject[] Door;
+    public GameObject[] Floor;
 
     public List<GameObject> rooms;
     public int roomcount;
@@ -24,6 +25,10 @@ public class RoomTemplates : MonoBehaviour
     public GameObject Boss;
     public GameObject BasicEnemy;
     public GameObject BasicEnemy2;
+
+    public int FloorCount = 0;
+    public int FloorMax = 2;
+    public int RandomFloor;
 
     private void Start()
     {
