@@ -18,11 +18,11 @@ public class GameOverScreen : MonoBehaviour
     public void RestartButton()
     {
         Debug.Log("Restart");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Level 1");
     }
 
     public void ExitButton()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        SceneManager.LoadScene("Title Screen");
     }
 }

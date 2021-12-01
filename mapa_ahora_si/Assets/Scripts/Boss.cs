@@ -19,7 +19,7 @@ public class Boss : MonoBehaviour
     private Text text;
     public float start_time;
     public float end_time;
-    public GameOverScreen GameOverScreen;
+    public NextLevelScreen NextLevelScreen;
    
    
     void Start()
@@ -68,8 +68,8 @@ public class Boss : MonoBehaviour
             Debug.Log("You Win");
             PlayerPrefs.SetFloat("TimePrefsName", end_time);
             Debug.Log(end_time);
-            GameOverScreen.Setup();
-            SceneManager.LoadScene(3);
+            NextLevelScreen.Setup();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             //Destroy(this.gameObject);
             //UnityEditor.EditorApplication.isPlaying = false;
 

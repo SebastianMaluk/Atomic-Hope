@@ -12,9 +12,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 1f1020a207f2fb641b5fbb4f850a17df
   - enabled: 1
-    path: Assets/Scenes/mapa_casilisto.unity
+    path: Assets/Scenes/Level 1.unity
     guid: c3f817f3081204746b777ae505e7ac46
   - enabled: 1
-    path: Assets/Scenes/Win.unity
+    path: Assets/Scenes/Next Level_1.unity
     guid: 08287b3e9a7154c40aa12bb55998f1c5
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 0ef4cce1239ed1248b55b3638be60fb1
+  - enabled: 1
+    path: Assets/Scenes/Next Level_2.unity
+    guid: 6a55295457aa007409880d254225eb4a
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: aebc105ecce35de48817b6420aaf19b0
+  - enabled: 1
+    path: Assets/Scenes/Next Level_3.unity
+    guid: f35ec3989752d7049a976e06becd988d
+  - enabled: 1
+    path: Assets/Scenes/Final Boss.unity
+    guid: 552880a7bc1bfc649b05d07d01285952
   m_configObjects: {}

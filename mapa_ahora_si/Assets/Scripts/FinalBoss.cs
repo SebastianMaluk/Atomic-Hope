@@ -91,7 +91,7 @@ public class FinalBoss : MonoBehaviour
             PlayerPrefs.SetFloat("TimePrefsName", end_time);
             Debug.Log(end_time);
             GameOverScreen.Setup();
-            SceneManager.LoadScene(3);
+            
             //Destroy(this.gameObject);
             //UnityEditor.EditorApplication.isPlaying = false;
 

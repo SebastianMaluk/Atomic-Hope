@@ -143,7 +143,7 @@ MonoBehaviour:
   bodydamage: 20
   start_time: 0
   end_time: 0
-  GameOverScreen: {fileID: 70361887795334710, guid: c0c0125361a05c84d9a39c0e57d2ddf6, type: 3}
+  NextLevelScreen: {fileID: 2016197602175730181, guid: 22e980afa64ea5643bc3753aa1d889b0, type: 3}
 --- !u!1 &3385468187297799811
 GameObject:
   m_ObjectHideFlags: 0
