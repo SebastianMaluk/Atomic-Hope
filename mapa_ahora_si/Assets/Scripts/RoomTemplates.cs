@@ -52,8 +52,9 @@ public class RoomTemplates : MonoBehaviour
     }
     void SpawnGuns() 
     {
+        Vector3 pos0 = new Vector3(0f, -7f, 0f);
         Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
-        Instantiate(guns[0], rooms[1].transform.position, Quaternion.identity);
+        Instantiate(guns[0], rooms[1].transform.position+pos0, Quaternion.identity);
         Instantiate(guns[1], rooms[Random.Range(2, 6)].transform.position+pos,Quaternion.identity);
     }
     void SpawnKey()
