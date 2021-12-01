@@ -116,7 +116,7 @@ public class RoomTemplates : MonoBehaviour
 
     void resetScene()
     {
-        if (roomcount < 7)
+        if (roomcount < 10)
         {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);

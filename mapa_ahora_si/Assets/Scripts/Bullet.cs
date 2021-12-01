@@ -19,6 +19,11 @@ public class Bullet : MonoBehaviour
             Boss e = collision.gameObject.GetComponent<Boss>();
             e.vida -= damage;
         }
+        if (collision.gameObject.tag == "Golem")
+        {
+            Golem e = collision.gameObject.GetComponent<Golem>();
+            e.vida -= damage;
+        }
         Destroy(this.gameObject);
     }
     private void Start()

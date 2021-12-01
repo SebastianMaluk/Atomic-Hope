@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class Golem : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -16,6 +18,7 @@ public class Golem : MonoBehaviour
     public GameObject firepoint6;
     public GameObject firepoint7;
     public GameObject firepoint8;
+    public GameObject firepoitnA;
     public Animator animator;
     public GameObject Idle;
     public float vida;
@@ -26,6 +29,8 @@ public class Golem : MonoBehaviour
     private float time = 0f;
     private Vector3 posicionoriginal;
     private float rotation;
+    private float time2=0f;
+    public GameOverScreen GameOverScreen;
     //private GameObject canvas;
     //private Text text;
     //public float start_time;
@@ -41,7 +46,8 @@ public class Golem : MonoBehaviour
         posicionoriginal = transform.position;
         //canvas.SetActive(false);
         //start_time = 0f;
-        time =0f;
+        StartCoroutine(At1());
+        time = 0f;
     }
 
     // Update is called once per frame
@@ -53,46 +59,73 @@ public class Golem : MonoBehaviour
         Vector3 diff = player.transform.position - transform.position;
         diff.Normalize();
 
-       // float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-        //transform.rotation = Quaternion.Euler(0f, 0f ,rot_z);
-        
 
-        float Dist = Vector3.Distance(player.transform.position, transform.position);
-        if (Dist <= 10f)
-        {
-            //canvas.SetActive(true);
-            //time = 0f;
-            
-
-        }
-        else
-        {
-           // canvas.SetActive(false);
-        }
-        if (Dist <= 10f && time >= armsrate)
-        {
-          //  canvas.SetActive(true);
-            Rocks();
-            time = 0;
-
-        }
-        //end_time += Time.deltaTime;
         if (vida <= 0)
         {
-           // Debug.Log("You Win");
-            //PlayerPrefs.SetFloat("TimePrefsName", end_time);
-            //Debug.Log(end_time);
-            //GameOverScreen.Setup();
-            //SceneManager.LoadScene(3);
+            Debug.Log("You Win");
+            
+            GameOverScreen.Setup();
+            SceneManager.LoadScene(3);
             //Destroy(this.gameObject);
             //UnityEditor.EditorApplication.isPlaying = false;
 
         }
-    }
 
+
+
+
+    }
+    IEnumerator At1() 
+    {
+        while (true)
+        {
+            float Dist = Vector3.Distance(player.transform.position, transform.position);
+
+            for (int i = 0; i < 3; i++)
+            {
+                animator.SetBool("isAttacking", true);
+                animator.SetTrigger("Attack");
+                Invoke("Rocks", 1f);
+                yield return new WaitForSeconds(2);
+                animator.ResetTrigger("Attack");
+            }
+            yield return new WaitForSeconds(1);
+            var newPos = posicionoriginal + (transform.up * 16f) - (transform.right * 16f);
+
+            while (Vector3.Distance(newPos, transform.position) > 0.01f)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, newPos, Time.deltaTime * 7f);
+                yield return null;
+            }
+
+            yield return new WaitForSeconds(2);
+            var newPos1 = transform.position - transform.up * 30f;
+            animator.SetTrigger("Charge");
+            bool ataca = true;
+            while (Vector3.Distance(newPos1, transform.position) > 0.01f)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, newPos1, Time.deltaTime * speed);
+                StartCoroutine(Atacar());
+                yield return null;
+            }
+
+            animator.ResetTrigger("Charge");
+            animator.SetTrigger("Discharge");
+            yield return new WaitForSeconds(1);
+
+            var newPos2 = posicionoriginal;
+            while (Vector3.Distance(newPos2, transform.position) > 0.01f)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, newPos2, Time.deltaTime * 7f);
+                yield return null;
+            }
+        }
+
+
+    }
     void Rocks()
     {
-        animator.SetTrigger("Attack");
+
         GameObject rock = Instantiate(rocks, firepoint1.transform.position, firepoint1.transform.rotation);
         GameObject rock1 = Instantiate(rocks, firepoint2.transform.position, firepoint2.transform.rotation);
         GameObject rock2 = Instantiate(rocks, firepoint3.transform.position, firepoint3.transform.rotation);
@@ -101,15 +134,25 @@ public class Golem : MonoBehaviour
         GameObject rock5 = Instantiate(rocks, firepoint6.transform.position, firepoint6.transform.rotation);
         GameObject rock6 = Instantiate(rocks, firepoint7.transform.position, firepoint7.transform.rotation);
         GameObject rock7 = Instantiate(rocks, firepoint8.transform.position, firepoint8.transform.rotation);
-        
-
+        animator.SetBool("isAttacking", false);
     }
     void Mover() 
     {
 
     }
-    void Atacar() 
+    IEnumerator Atacar() 
     {
-        
+
+        time += Time.deltaTime;
+        for (int i = 0; i < 20; i++)
+        {
+            if (time > 0.8f)
+            {
+
+                GameObject rock = Instantiate(rocks, firepoitnA.transform.position, firepoitnA.transform.rotation);
+                time = 0;
+            }
+        }
+        yield return new WaitForSeconds(3);
     }
 }
