@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float speed = 5f;
+    public float speed;
     Vector2 movement;
     public Rigidbody2D rb;
 
@@ -14,6 +14,14 @@ public class Movimiento : MonoBehaviour
     {
         movement.x=Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        if (movement.x < 0) 
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX=true;
+        }
+        else if(movement.x>0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
     private void FixedUpdate()
     {

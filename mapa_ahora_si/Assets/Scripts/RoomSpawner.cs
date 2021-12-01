@@ -9,6 +9,7 @@ public class RoomSpawner : MonoBehaviour
     private int rand;
     private bool spawner = false;
     private int randfloor;
+    
 
     private RoomTemplates templates;
     
