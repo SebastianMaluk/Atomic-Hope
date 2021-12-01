@@ -65,7 +65,7 @@ public class Golem : MonoBehaviour
             Debug.Log("You Win");
             
             GameOverScreen.Setup();
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
             //Destroy(this.gameObject);
             //UnityEditor.EditorApplication.isPlaying = false;
 
