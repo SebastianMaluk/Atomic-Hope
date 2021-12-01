@@ -114,3 +114,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gun: {fileID: 2729834683026510539, guid: 7abc4204ae883914a931913c2b2f8838, type: 3}
   BulletCount: 20
+  popup: {fileID: 3691086604341944371, guid: 7f28bbd2aa0d35a4587cb0d9d3b17fa2, type: 3}
