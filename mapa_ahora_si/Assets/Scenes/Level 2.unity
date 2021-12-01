@@ -585,6 +585,7 @@ MonoBehaviour:
   guns:
   - {fileID: 2334359733756891301, guid: 31c16421ae678914a9c9b126be2bb68c, type: 3}
   - {fileID: 1236373615275784519, guid: 42da8e8ad08410b44a3f73201b6ae48e, type: 3}
+  - {fileID: 4368641104239775830, guid: 2c153dd4ed331b646859aca06502a44d, type: 3}
   key: {fileID: 6910820938106666858, guid: a84654ccebf141c40aa54fce27bfdfa9, type: 3}
   Door:
   - {fileID: 589490852099833829, guid: 29d8efdbadee6c94c8efcc7f6f59e034, type: 3}
