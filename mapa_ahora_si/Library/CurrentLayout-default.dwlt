@@ -121,10 +121,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
+<<<<<<< Updated upstream
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
   controlID: 89
+=======
+  m_MinSize: {x: 909, y: 442}
+  m_MaxSize: {x: 22004, y: 10021}
+  vertical: 0
+  controlID: 67
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +156,11 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 90
+=======
+  controlID: 92
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +285,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -437,9 +448,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 14.923135, y: -14.960385, z: -180.03636}
     speed: 2
     m_Value: {x: 16.818903, y: -14.733347, z: -179.87213}
+=======
+    m_Target: {x: -0.86014676, y: 5.7433476, z: -336.3291}
+    speed: 2
+    m_Value: {x: -0.86014676, y: 5.7433476, z: -336.3291}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -490,9 +507,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 38.13655
     speed: 2
     m_Value: 36.49431
+=======
+    m_Target: 25.26826
+    speed: 2
+    m_Value: 25.26826
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -547,7 +570,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: bcf5fbff2cf7fbff7635fcff0c62fcffaa62fcff72d0fcff58d1fcffb2befdfffad0fdff30d2fdffe2d6fdff58d7fdff7ed7fdff08d8fdff00d9fdff26d9fdff28d9fdffa0d9fdffc6d9fdff50dafdff84dbfdffaadbfdffacdbfdff3cfffdffc6fffdff7235feff9a35feff1437feff1637feff7438feff9c38feff623bfeff9a52feff9c52feff1c54feff4254feff4454feff0855feffc455feffc655feff7456feff6057feffd658feffc259feff24e5feff3ce5fefffae5feff76f8feff7410ffff0811ffff8611ffffe638ffff3a3affff223efffffe53ffff4c54ffff9854fffff26effff926fffff5070ffff0c71ffff0e71ffffbe71ffff5e72ffffda81ffff9882ffffa493ffff8ca6ffff26a8ffff76baffff16bdffff46bdffff54beffff8cbeffffc4beffffa8bfffff28dfffff64e0ffff48e1fffff4ffffffb274000094750000b8750000069900000a9a0000469b0000f69e00002a9f00006aae0000ceaf00006eb00000b0b10000
+=======
+      m_ExpandedIDs: 5cfaffff46fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,9 +649,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 38580000
     m_LastClickedID: 22584
     m_ExpandedIDs: 000000001e5800002058000022580000245800002658000000ca9a3b
+=======
+    m_SelectedIDs: e64f0000
+    m_LastClickedID: 20454
+    m_ExpandedIDs: 00000000be4f0000c04f0000c24f0000c44f0000c64f0000c84f0000ca4f000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +685,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 000000001e58000020580000225800002458000026580000
+=======
+    m_ExpandedIDs: 00000000be4f0000c04f0000c24f0000c44f0000c64f0000c84f0000ca4f0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
