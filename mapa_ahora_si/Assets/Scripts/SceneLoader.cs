@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Backspace))
         {
+            Cursor.visible = true;
             SceneManager.LoadScene("Title Screen");
         }
         if (Input.GetKeyDown(KeyCode.Alpha1))

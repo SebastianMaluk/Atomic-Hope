@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 2303580967045345751}
   - component: {fileID: 1650475244147294722}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Next Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 3222546692188671468}
   - component: {fileID: 3148230905829436952}
   m_Layer: 5
-  m_Name: Restart
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 3237686965949974367}
   - component: {fileID: 4539151238581085525}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Boss Defeated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
