@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoomTemplates : MonoBehaviour
 {
@@ -32,12 +33,15 @@ public class RoomTemplates : MonoBehaviour
 
     private void Start()
     {
+        Invoke("resetScene", 2f);
         Invoke("SpawnEnemies", 3f);
         Invoke("SpawnGuns", 3f);
         Invoke("SpawnKey", 3f);
         Invoke("SpawnDoor", 3f);
     }
 
+    
+    
     void SpawnEnemies()
     {
         Instantiate(Boss, rooms[rooms.Count - 1].transform.position, Quaternion.identity);
@@ -52,10 +56,34 @@ public class RoomTemplates : MonoBehaviour
     }
     void SpawnGuns() 
     {
-        Vector3 pos0 = new Vector3(0f, -7f, 0f);
-        Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
-        Instantiate(guns[0], rooms[1].transform.position+pos0, Quaternion.identity);
-        Instantiate(guns[1], rooms[Random.Range(2, 6)].transform.position+pos,Quaternion.identity);
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            Vector3 pos0 = new Vector3(0f, -7f, 0f);
+            Vector3 pos = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+            Instantiate(guns[0], rooms[1].transform.position + pos0, Quaternion.identity);
+            Instantiate(guns[1], rooms[Random.Range(2, 6)].transform.position + pos, Quaternion.identity);
+            
+
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            Vector3 pos2 = new Vector3(2f, 5f, 0f);
+            Vector3 pos3 = new Vector3(0f, 5f, 0f);
+            Vector3 pos4 = new Vector3(Random.Range(-8f, 8f), Random.Range(-8f, 8f), 0f);
+            Instantiate(guns[0], rooms[0].transform.position + pos2, Quaternion.identity);
+            Instantiate(guns[1], rooms[0].transform.position + pos3, Quaternion.identity);
+            Instantiate(guns[2], rooms[Random.Range(2, 6)].transform.position + pos4, Quaternion.identity);
+        }
+        else
+        {
+            Vector3 pos5 = new Vector3(2f, 5f, 0f);
+            Vector3 pos6 = new Vector3(0f, 5f, 0f);
+            Vector3 pos7 = new Vector3(-2f, 5f, 0f);
+            Instantiate(guns[0], rooms[0].transform.position + pos5, Quaternion.identity);
+            Instantiate(guns[1], rooms[0].transform.position + pos6, Quaternion.identity);
+            Instantiate(guns[2], rooms[0].transform.position + pos7, Quaternion.identity);
+        }
+        
     }
     void SpawnKey()
     {
@@ -86,4 +114,12 @@ public class RoomTemplates : MonoBehaviour
         }
     }
 
+    void resetScene()
+    {
+        if (roomcount < 7)
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+    }
 }

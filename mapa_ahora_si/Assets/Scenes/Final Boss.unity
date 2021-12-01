@@ -1877,6 +1877,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7962146926101038469, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
+      propertyPath: weaponUi
+      value: 
+      objectReference: {fileID: 1012850065}
     - target: {fileID: 7962146927320785927, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
       propertyPath: m_Name
       value: Jugador
@@ -2018,3 +2022,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997588646}
   m_CullTransparentMesh: 1
+--- !u!1 &2134346963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134346965}
+  - component: {fileID: 2134346964}
+  m_Layer: 0
+  m_Name: FinalR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2134346964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134346963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06928f936f182d4a86caa0a712481d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guns:
+  - {fileID: 2334359733756891301, guid: 31c16421ae678914a9c9b126be2bb68c, type: 3}
+  - {fileID: 1236373615275784519, guid: 42da8e8ad08410b44a3f73201b6ae48e, type: 3}
+  - {fileID: 4368641104239775830, guid: 2c153dd4ed331b646859aca06502a44d, type: 3}
+  Ammo:
+  - {fileID: 507379579458152580, guid: bead31974df96cf478661ff03088e207, type: 3}
+  - {fileID: 4904536260349523641, guid: 199aa64cd2131c841b5a1fff19df3374, type: 3}
+  - {fileID: 4904536260349523641, guid: 199aa64cd2131c841b5a1fff19df3374, type: 3}
+--- !u!4 &2134346965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134346963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.769939, y: -2.2532082, z: -140.27446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoomSpawner : MonoBehaviour
 {
@@ -120,7 +121,24 @@ public class RoomSpawner : MonoBehaviour
 
 
 
+    void OnEnable()
+    {
+        Application.logMessageReceived += HandleLog;
+    }
 
+    void OnDisable()
+    {
+        Application.logMessageReceived -= HandleLog;
+    }
+
+    void HandleLog(string logString, string stackTrace, LogType type)
+    {
+        if (type == LogType.Error || type == LogType.Exception)
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+    }
 
 
 

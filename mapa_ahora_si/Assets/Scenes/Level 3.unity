@@ -280,6 +280,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7962146926101038469, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
+      propertyPath: weaponUi
+      value: 
+      objectReference: {fileID: 774256537}
     - target: {fileID: 7962146927320785927, guid: 550331dead537f64cbfe55f8b3e828c4, type: 3}
       propertyPath: m_Name
       value: Jugador
@@ -1545,8 +1549,9 @@ MonoBehaviour:
   - {fileID: 9159520301098443027, guid: c14ec3017f1b4fd468be39c016d2a9ef, type: 3}
   closedRoom: {fileID: 1933641231712889776, guid: 69e3150f6bdb6c14d9763d2bd308ab1e, type: 3}
   guns:
-  - {fileID: 2729834683026510539, guid: 7abc4204ae883914a931913c2b2f8838, type: 3}
-  - {fileID: 5348335878228808757, guid: 0c157a0c33c903a46b404fe27f77def5, type: 3}
+  - {fileID: 2334359733756891301, guid: 31c16421ae678914a9c9b126be2bb68c, type: 3}
+  - {fileID: 1236373615275784519, guid: 42da8e8ad08410b44a3f73201b6ae48e, type: 3}
+  - {fileID: 4368641104239775830, guid: 2c153dd4ed331b646859aca06502a44d, type: 3}
   key: {fileID: 6910820938106666858, guid: a84654ccebf141c40aa54fce27bfdfa9, type: 3}
   Door:
   - {fileID: 589490852099833829, guid: 29d8efdbadee6c94c8efcc7f6f59e034, type: 3}
